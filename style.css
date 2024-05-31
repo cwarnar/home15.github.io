@@ -1,0 +1,183 @@
+/* body opmaak */
+body {
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEF9F3;
+}
+
+/* header opmaak inclusief navigatiemenu */
+header {
+    display: block;
+    border: solid 2px #FEE8D1;
+    background-color: #D1E8FE;
+}
+
+header h1{
+    color: #82776B;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+/* navigatiemenu opmaak */
+a {
+    text-decoration: none;
+}
+button{
+    display: block;
+    background-color:  #D1E8FE;
+    color: black;
+    padding: 4px 5px;
+    text-align: center;
+    margin-top: 4px;
+    border: none;
+}
+
+button:hover {
+    background-color: #FED1E8;
+    color:  #82776B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #FEE8D1;
+    border: solid 2px white;
+}
+nav li {
+    float: left;
+    border:solid 2px white;
+    padding: 3px;
+    margin: 3px;
+}
+nav li a {
+    display: block;
+    background-color: #82776B;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;  
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #D1E8FE;
+    color:  #82776B;
+}
+nav a:active {
+    background-color: #FED1E8;
+    color: #82776B;
+}
+/* mainmenu opmaken */
+main {
+    background-color: rgb(251, 253, 255);
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: solid 2px #FEE8D1;
+}
+
+/* opmaak mijn cv en volledige cv */
+#werkervaring{
+    padding-top: 180px;
+}
+#persoonlijk {
+    width: 80%;
+    float: right;
+}
+p img {
+    width: 150px;
+    height: 175px;
+    float: left;
+    margin: 0px;
+    padding: 2px;
+}
+
+/* footer opmaak */
+footer {
+    border: solid 2px #FEE8D1;
+    text-align: center;
+    color: #82776B;
+    background-color: #D1E8FE;
+}
+
+/* opmaak tabel */
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FEE8D1;
+    color: #82776B;
+}
+td, th {
+    border: 1px solid #FEE8D1;
+    padding: 8px;
+}
+tr:hover {
+    background-color:  #D1E8FE;
+}
+
+/* opmaak contactformulier */
+input[type="text"], input[type="email"], textarea, select{
+    display: block;
+    margin: 15px 0px;
+    background-color: #FEF9F3;
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 2px 2px 2px #82776B;
+    height: 25px;
+    width: 80%;
+}
+.contact select {
+    width: 40%;
+}
+.contact textarea{
+    text-overflow: hidden;
+    height: 50px;
+    font-size: 12px;
+}
+.contact button {
+    display: inline;
+    margin: 15px 0px;
+    background-color: #D1E8FE;
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 2px 2px 2px #82776B;
+    width: 100px;
+}
+.contact button[type="submit"]:active{
+    background-color: #FEF9F3;
+    box-shadow: inset 2px 2px 5px #82776B;
+}
+.contact button:hover{
+    background-color: #FED1E8;
+    color: black;
+} 
+.contact button[type="reset"]{
+    background-color: #FED1E8;
+}
+.contact button[type="reset"]:hover{
+    background-color: #D1E8FE;
+    color: black;
+}
+.contact button[type="reset"]:active{
+    background-color: #FEF9F3;
+    box-shadow: inset 2px 2px 5px #82776B;
+}
+.contact {
+    background-color: #FEE8D1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #82776B;
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 5px 5px 5px 5px #82776B;
+}
+

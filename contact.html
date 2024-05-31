@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Contactformulier</title>
+</head>
+<body>
+    <header>
+        <h1>Constantijn Warnar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijn CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+        <h2>Contactformulier</h2>
+        <form action="mailto:constantijn_warnar@hotmail.com" method="post">
+            <label for="Aanhef">Aanhef</label>
+            <select name="aanhef" id="aanhef">
+                <option value="keuze">Maak uw keuze</option>
+                <option value="de heer">De heer</option>
+                <option value="Mevrouw">Mevrouw</option>
+                <option value="Hen">Hen</option>
+            </select>
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam"/>
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam"/>
+            <label for="email">Emailadres</label>
+            <input type="email" id="email" name="email" placeholder="Uw email adres"/>
+            <label for="werkgebied">Uw vraag gaat over(selecteer):</label>
+            <select>
+                <option value="keuze">Maak uw keuze</option>
+                <option value="algemeen">Algemeen</option>
+                <option value="loonadministratie">Loonadministratie</option>
+                <option value="administratie">Administratie</option>
+                <option value="webdesign">Webdesign</option>
+            </select>
+            <label for="Uw bericht">Schrijf uw bericht</label>
+            <textarea id="bericht" name="bericht" placeholder="Geef kort aan waar u informatie over wenst"></textarea>
+            <button type="submit" name="verzend">Verzend</button>
+            <button type="reset" name="reset">Reset</button>
+        <p>
+            Bedankt voor uw interesse in ons bedrijf. 
+            Klik op de verzendknop en ik zal zo snel mogelijk contact met u opnemen.
+        </p>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Constantijn Warnar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
